@@ -1,0 +1,2 @@
+# Wikiracing
+Finds the shortest path between two pages. Its primary method is finding which words and links the current page and goal page have in common. It's highly suboptimal — tree-search from the start page would be the perfect solution (but you would need to download the entirety of Wikipedia, alternatively spam it with requests). It also has limited usage for The Wiki Game, because it doesn't use all links of the actual Wikipedia pages.
