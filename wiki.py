@@ -9,35 +9,6 @@ from difflib import SequenceMatcher
 import csv
 import pandas as pd
 
-#Maybe provide the word with the hyperlink
-#Maybe use the least common word as a priority
-#Use machine learning to find the shortest path
-#Countries
-#Car --> North CARolina, Carolingian_Renaissance, Caribbean
-# if more than 4 words...
-# direct word, chooses "of"
-# prioritize countries
-# if it's a name, and it's another name, don't pick the other name
-# see branching pages on target page, and choose them as first priority
-# make a scoring algorithm
-# there are other python bots - look at them after you're happy with yours
-# is common sorted?
-# list of longest wikipedia pages, do that before lesscommon
-# Direct word - names are worthless!
-# You can do raelly fun statistics with this
-# Automate the entire wiki game, including when the link doesn't exist
-# get word connected with link
-# use machine learning to figure out appropriate value of all the variables
-# dilemma of whether to use difference
-# lesscommon is WORTHLESS
-# search wikipedia for every city name and create a txt file that corresponds to it (would solve Bostom problem and get me one step closer to Jesus)
-# it's so goddamn much more fun to iteratively improve a project than to start 1000 small ones
-# do some inception linking
-# use python wikipedia API, search for related pages
-# there's something wrong with similar()
-# get some interesting stats on startpage
-# I don't think you're using the 100000 assignment 
-
 original = "https://en.wikipedia.org/wiki/Special:Random" #Make the original a random Wikipedia page
 foundrandom = False
 
